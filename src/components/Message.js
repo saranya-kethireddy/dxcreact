@@ -12,13 +12,13 @@ class Message extends Component {
         return (
             <div>
                 <h1>{this.state.message}</h1>
-                <button   onClick = {()=> this.changeMessage()}>subscribe</button>
+                <button onClick={() => this.changeMessage()}>subscribe</button>
 
             </div>
         )
     }
 
-    changeMessage(){
+    changeMessage() {
         this.setState({    //changing the content of the partition
             message: 'thank you for subscribing'
         })
