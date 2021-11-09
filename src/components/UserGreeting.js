@@ -5,17 +5,22 @@ export class UserGreeting extends Component {
         super(props)
 
         this.state = {
-             isLoggedIn : true
+             isLoggedIn : false
         }
     }
 
     render() {
+        let message
         if(this.state.isLoggedIn){
-            return <div>welcome saranya</div>
+            message = <div>welcome abdul</div>
         }
         else{
-            return <div>welcome </div>
+            message = <div>welcome guest</div>
         }
+        return <div>{message}</div>
+            
+        }
+        
        /*  return (
             <div>
                 <div>welcome abdul</div>
@@ -23,6 +28,6 @@ export class UserGreeting extends Component {
             </div>
         ) */
     }
-}
+
 
 export default UserGreeting
