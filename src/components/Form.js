@@ -7,7 +7,8 @@ constructor(props) {
 
     this.state = {
          username: '',
-         comments: ''
+         comments: '',
+         topic: 'react'
     }
 }
 
@@ -15,6 +16,17 @@ constructor(props) {
     handleUsernameChange = (event) => {
         this.setState({
             username: event.target.value
+        })
+    }
+    handleeCommentsChange = (event) => {
+        this.setState({
+            comments: event.target.value
+        })
+    }
+
+    handleTopicChange = (event) => {
+        this.setState({
+            topic: event.target.value
         })
     }
 
@@ -27,7 +39,16 @@ constructor(props) {
                 </div>
                 <div>
                     <label>comments</label>
-                    <textarea value = {this.state.comments }></textarea>
+                    <textarea value = {this.state.comments } onChange={this.handleeCommentsChange}></textarea>
+                </div>
+                <div>
+                <label>topics</label>
+                    <select value = {this.state.topic} onChange = {this.handleTopicChange}>
+                        <option value="react">React</option>
+                        <option value="angular">Angular</option>
+                        <option value="vue">Vue</option>
+
+                    </select>
                 </div>
             </form>
         )
