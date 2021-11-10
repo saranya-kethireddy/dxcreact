@@ -7,6 +7,7 @@ import ParentComponent from './components/ParentComponent';
 import Table from './components/Table';
 import UserGreeting from './components/UserGreeting';
 import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
 
-      
+      <Inline/>
       <Stylesheet enabled = {true}/>
       <Table/>
 
