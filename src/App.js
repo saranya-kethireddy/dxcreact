@@ -15,7 +15,7 @@ function App() {
     <div className="App">
 
       
-      <Stylesheet enabled = {false}/>
+      <Stylesheet enabled = {true}/>
       <Table/>
 
       <UserGreeting/>
