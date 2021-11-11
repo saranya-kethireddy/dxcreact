@@ -14,6 +14,8 @@ import Form from './components/Form';
 
 import Fragments from './components/Fragments';
 import NewTable from './components/NewTable';
+import Parentcomp from './components/Parentcomp';
+import PureComp from './components/PureComp';
 
 
 
@@ -36,6 +38,7 @@ function App() {
       <EventBind/>
       <NameList/>
       <NewTable/>
+      <Parentcomp/>
 
     </div>
   );
