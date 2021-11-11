@@ -12,6 +12,8 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
 
+import Fragments from './components/Fragments';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
     <div className="App">
 
       <Form/>
+      <Fragments/>
 
       <h1 className = {styles.success}>success</h1>
       <h1 className = 'error'>error</h1>
