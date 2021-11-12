@@ -5,19 +5,15 @@ import './App.css';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
-
-
-import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/refs/FocusInput';
+import Input from './components/refs/Input';
 
 
 
 function App() {
   return (
     <div className="App">
-
-      <RefsDemo/>
-
-      
+      <FocusInput/>
 
     </div>
   );
