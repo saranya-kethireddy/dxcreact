@@ -8,7 +8,7 @@ constructor(props) {
     super(props)
 
     this.state = {
-         name: 'saranya-parentcompnew'
+         name: 'saranya-parentcomnew'
     }
 }
 
