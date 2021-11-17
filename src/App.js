@@ -4,15 +4,14 @@ import './App.css';
 
 import './appStyles.css'
 import HookCounter from './components/hooks/HookCounter';
-import PortalDemo from './components/portals/PortalDemo';
-import ClassCounter from './components/hooks/ClassCounter';
+import HookCounter2 from './components/hooks/HookCounter2';
 
 
 
 function App() {
   return (
     <div className="App">
-     <HookCounter/>
+     <HookCounter2/>
      
 
     </div>
