@@ -14,7 +14,7 @@ import CounterHook1 from './components/hooks/useeffect/CounterHook1';
 function App() {
   return (
     <div className="App">
-     <ClassCounter1/>
+     <CounterHook1/>
      
 
     </div>
