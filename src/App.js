@@ -3,18 +3,17 @@ import './App.css';
 
 
 import './appStyles.css'
+import HookCounter from './components/hooks/HookCounter';
 import PortalDemo from './components/portals/PortalDemo';
-
-import FrParentInput from './components/refs/FrParentInput';
-import Input from './components/refs/Input';
+import ClassCounter from './components/hooks/ClassCounter';
 
 
 
 function App() {
   return (
     <div className="App">
-     <FrParentInput/>
-     <PortalDemo/>
+     <HookCounter/>
+     
 
     </div>
   );
