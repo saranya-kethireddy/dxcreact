@@ -3,19 +3,17 @@ import './App.css';
 
 
 import './appStyles.css'
-import HookCounter from './components/hooks/HookCounter';
-import HookCounter2 from './components/hooks/HookCounter2';
-import HookCounter3 from './components/hooks/HookCounter3';
-import ClassCounter1 from './components/hooks/useeffect/ClassCounter';
-import CounterHook1 from './components/hooks/useeffect/CounterHook1';
 
+import ClassMouse from './components/hooks/useeffect/ClassMouse';
+import HookMouse from './components/hooks/useeffect/HookMouse';
 
 
 function App() {
   return (
     <div className="App">
-     <CounterHook1/>
      
+     
+     <HookMouse/>
 
     </div>
   );
